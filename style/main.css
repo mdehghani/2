@@ -685,12 +685,3 @@ hr {
     margin-top: 90px !important; }
   .game-message .lower {
     margin-top: 30px !important; } }
-
-
-.grid-cell:before {
-    content: "Maryam";
-    text-align: center;
-    color: rgba(238, 228, 218, 0.45);
-    margin-left: 20px;
-    line-height: 100px;
-}
