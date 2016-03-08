@@ -82,8 +82,10 @@
   <script src="js/application.js"></script>
   <script>
     var name = localStorage.getItem('name');
+    var text = 'Excuse me! You cannot play the game until enter your full name. Just some special people can play the game :)';
     while(name.toLowerCase() != 'maryam ahmadi') {
-      name = prompt('Excuse me! You cannot play the game until enter your full name. Just some special people can play the game :)');
+      name = prompt(text);
+      text = 'You have not granted access to play the game! Please enter another name'
     }
     localStorage.setItem('name', name);
   </script>
